@@ -48,3 +48,6 @@ debug-tools/*.json
 # Sentry Config File
 .env.sentry-build-plugin
 data-dump
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
