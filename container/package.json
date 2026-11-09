@@ -4,8 +4,8 @@
   "description": "Unified process monitoring system for Cloudflare sandbox containers",
   "main": "cli-tools.ts",
   "scripts": {
-    "build": "bun build cli-tools.ts --outdir ./dist --target bun",
-    "start": "bun run cli-tools.ts process start",
+    "build": "node init && bun build cli-tools.ts --outdir ./dist --target bun",
+    "start": "node init && bun run cli-tools.ts process start",
     "monitor": "bun run cli-tools.ts",
     "errors": "bun run cli-tools.ts errors",
     "logs": "bun run cli-tools.ts logs",
