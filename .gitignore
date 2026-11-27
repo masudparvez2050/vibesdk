@@ -45,4 +45,3 @@ debug-tools/*.json
 # Sentry Config File
 .env.sentry-build-plugin
 data-dump
-config.bat
